@@ -14,9 +14,6 @@ dangerouslySetInnerHTML is React’s replacement for using innerHTML in the brow
 
 * Create line break within my string. 
 
-## Code Explanation
-
-
 ## Directory Structure
 
 ```bash
