@@ -1,15 +1,22 @@
-.App {
-  padding-top: 32px;
+@import "./utils/_helpers.scss";
+
+body {
+  background-color: #fff;
 }
 
-.left {
-  border-right: 5px solid #222;
+.left,
+.right {
+  padding: em(32px) em(16px) em(24px);
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.row {
+  margin: 0;
 }
 
 textarea {
   height: 100vh;
   width: 100%;
-  margin-left: 16px;
-  font-size: 16px;
+  font-size: em(16px);
   border: none;
 }

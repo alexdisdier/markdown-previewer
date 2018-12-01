@@ -1,0 +1,77 @@
+@import "../../utils/_helpers.scss";
+
+#fcc_test_suite_wrapper {
+  display: none;
+}
+
+header {
+  padding: em(24px);
+  background-color: $color-dark-background;
+  color: $color-light-text;
+  text-align: center;
+
+
+  h1 {
+    margin: 0;
+    padding-top: em(16px);
+    font-size: em(24px);
+  }
+
+  img {
+    width: 56px;
+  }
+
+  @media (min-width: $breakpoint-tablet) {
+    h1 {
+      padding: 0;
+    }
+  }
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: em(16px);
+
+  @media (min-width: $breakpoint-tablet) {
+    flex-direction: row;
+    // padding-bottom: 0;
+  }
+}
+
+button {
+  padding: em(8px);
+  border: 1px solid #fff;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.checkbox {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  flex-flow: column-reverse;
+  align-items: center;
+
+  input {
+    margin-right: em(8px);
+  }
+
+  label {
+    padding-bottom: em(8px);
+  }
+
+  @media (min-width: $breakpoint-tablet) {
+    flex-direction: row;
+    flex-grow: column-reverse;
+
+    label {
+      padding-bottom: 0;
+    }
+  }
+
+}
