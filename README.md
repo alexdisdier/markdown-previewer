@@ -50,3 +50,5 @@ random_quote_machine
 * This is part of Front End Libraries Projects in order to get the certification from [FreeCodeCamp](https://learn.freecodecamp.org/front-end-libraries/front-end-libraries-projects/build-a-markdown-previewer)
 
 * This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+* Deploy React to github pages [codeburst](https://codeburst.io/deploy-react-to-github-pages-to-create-an-amazing-website-42d8b09cd4d) 
