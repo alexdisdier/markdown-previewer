@@ -2,11 +2,15 @@
 
 This is a markdown previewer for github.
 
+## Usage example
+
+See a live version running this template - https://alexdisdier.github.io/markdown-previewer/
+
 ## Directory Structure
 
 ```bash
 
-random_quote_machine
+markdown-previewer
 ├── .git
 ├── node_modules
 ├── public
@@ -51,4 +55,4 @@ random_quote_machine
 
 * This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-* Deploy React to github pages [codeburst](https://codeburst.io/deploy-react-to-github-pages-to-create-an-amazing-website-42d8b09cd4d) 
+* Deploy React to github pages [codeburst](https://codeburst.io/deploy-react-to-github-pages-to-create-an-amazing-website-42d8b09cd4d)
