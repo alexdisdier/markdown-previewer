@@ -2,6 +2,8 @@
 
 This is a markdown previewer for github.
 
+![screenshot of a markdown previewer for github](/src/screenshot.jpg?raw=true "screenshot of a markdown previewer for github")
+
 ## Usage example
 
 See a live version running this template - https://alexdisdier.github.io/markdown-previewer/
